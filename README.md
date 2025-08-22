@@ -1,124 +1,104 @@
 <!--
 Hello! You've found the source code for my GitHub profile.
-Feel free to take inspiration from it, but please give credit if you use significant parts.
+This new version is inspired by the clean and professional profiles of developers at top tech companies.
+Feel free to take inspiration, but please give credit if you use significant parts.
 Thanks for visiting!
 -->
 
-<!--
-BANNER SECTION
-This is a personal banner. You can create your own here: https://leviarista.github.io/github-profile-header-generator/
-I've created a simple, elegant one for you to start with.
--->
-
-<p align="center">
-<img src="https://www.google.com/search?q=https://i.imgur.com/Zc20YjB.png" alt="Hardik Kothari - AI Developer Banner">
-</p>
-
-<!--
-INTRODUCTION SECTION
-This includes the animated typing effect. You can customize the text here: https://readme-typing-svg.demolab.com/
--->
+<!-- Centered Header: Name, Title, and Socials -->
 
 <div align="center">
-<h1>
-<a href="https://git.io/typing-svg">
-<img src="https://www.google.com/search?q=https://readme-typing-svg.demolab.com%3Ffont%3DInter%26size%3D35%26pause%3D1000%26color%3D36BCF7%26center%3Dtrue%26vCenter%3Dtrue%26width%3D500%26lines%3DHey%2Bthere%252C%2BI%27m%2BHardik%2BKothari%3BAI%2BDeveloper%3BData%2BScience%2BEnthusiast%3BMachine%2BLearning%2BEngineer" alt="Typing SVG">
-</a>
-</h1>
-</div>
+<img src="https://www.google.com/search?q=https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+<h1>Hi there, I'm Hardik Kothari</h1>
+<strong>AI Developer | Data Science Enthusiast | ML Engineer</strong>
+<br/><br/>
 
-<!--
-ABOUT ME SECTION
-A brief introduction about yourself.
--->
+<!-- Social Media Badges -->
 
-<div align="center">
-<p>
-I'm a passionate AI Developer and Data Science enthusiast based in Jaipur, India. I specialize in building intelligent systems and leveraging data to solve complex problems. Currently pursuing my studies at Poornima University, I'm always eager to learn and apply new technologies.
-</p>
-</div>
-
-📊 My GitHub Stats
-<!--
-GITHUB STATS SECTION
-These stats will automatically update. The theme switcher logic is applied here.
-For the dark/light theme to work, you MUST append #gh-dark-mode-only to the dark theme image URL and #gh-light-mode-only to the light theme one.
--->
-
-<p align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Ddracula%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dbuefy%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dbuefy%26include_all_commits%3Dtrue%26count_private%3Dtrue" alt="Hardik's GitHub Stats">
-</picture>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Ddracula%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dbuefy%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dbuefy" alt="Hardik's Top Languages">
-</picture>
-<br>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddracula%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dbuefy%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dbuefy" alt="Hardik's Contribution Streak">
-</picture>
-</p>
-
-🛠️ My Tech Stack
-<!--
-SKILLS SECTION
-Icons are from https://skillicons.dev/
--->
-
-<p align="center">
-<a href="https://skillicons.dev">
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,tensorflow,pytorch,scikitlearn,pandas,numpy,mysql,sqlite,fastapi,flask,docker,git,github,vscode,linux%26perline%3D5" alt="My Skills"/>
-</a>
-</p>
-
-🚀 My Projects
-<!--
-PROJECTS SECTION
-Using pinned repo cards for a clean look. The theme switcher is also applied here.
--->
-
-<p align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Ddracula%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dbuefy%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dbuefy" alt="AI Career Counselor Project">
-</picture>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Ddracula%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dbuefy%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dbuefy" alt="Stock Market Prediction Project">
-</picture>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Ddracula%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dbuefy%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dbuefy" alt="SignSpeak Project">
-</picture>
-</p>
-
-🤝 Let's Connect
-<!--
-SOCIALS SECTION
--->
-
-<p align="center">
-<a href="https://www.linkedin.com/in/hardik-kothari-80a06624a/">
+<a href="https://www.linkedin.com/in/hardik-kothari-80a06624a/" target="_blank">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn">
 </a>
 <a href="mailto:your-email@example.com"> <!-- Replace with your actual email -->
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
 </a>
+<br/><br/>
+</div>
+
+<!-- About Me Section -->
+
+👨‍💻 About Me
+I'm a passionate AI Developer and Data Science enthusiast from Jaipur, India, currently studying at Poornima University. My focus is on creating intelligent systems and solving complex challenges with data. I thrive on learning new technologies and applying them to build impactful solutions.
+
+<!-- Two-column layout for Stats and Skills -->
+
+<table>
+<tr>
+<!-- Left Column: GitHub Stats -->
+<td valign="top" width="50%">
+### 📊 GitHub Stats
+<p align="center">
+<!-- GitHub Stats Card -->
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dtokyonight%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Ddefault%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Ddefault%26include_all_commits%3Dtrue%26count_private%3Dtrue" alt="Hardik's GitHub Stats">
+</picture>
+<br/>
+<!-- Top Languages Card -->
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dtokyonight%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Ddefault%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Ddefault" alt="Hardik's Top Languages">
+</picture>
+</p>
+</td>
+<!-- Right Column: Tech Stack -->
+<td valign="top" width="50%">
+### 🛠️ Tech Stack
+<p align="center">
+<a href="https://skillicons.dev">
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,tensorflow,pytorch,scikitlearn,pandas,numpy,mysql,sqlite,fastapi,flask,docker,git,github,vscode,linux%26perline%3D5" alt="My Skills"/>
+</a>
+</p>
+</td>
+</tr>
+</table>
+
+🏆 GitHub Trophies
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3Dhardikkothari2023%26theme%3Dradical%26no-frame%3Dtrue%26no-bg%3Dtrue%26margin-w%3D4%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3Dhardikkothari2023%26theme%3Dflat%26no-frame%3Dtrue%26no-bg%3Dtrue%26margin-w%3D4%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-profile-trophy.vercel.app/%3Fusername%3Dhardikkothari2023%26theme%3Dflat%26no-frame%3Dtrue%26no-bg%3Dtrue%26margin-w%3D4" alt="GitHub Trophies">
+</picture>
 </p>
 
-<!--
-FOOTER SECTION
-A simple visitor counter.
--->
+🚀 My Projects
+Here are some of the projects I'm proud of.
+
+Project
+
+Description
+
+🤖 AI Career Counselor
+
+An intelligent system to guide students and professionals in their career paths using AI.
+
+📈 Stock Market Prediction
+
+A machine learning model to forecast stock market trends based on historical data.
+
+🤟 SignSpeak
+
+A real-time sign language to speech translation application using computer vision.
+
+📈 My Contribution Graph
+<p align="center">
+<img src="https://www.google.com/search?q=https://github-readme-activity-graph.vercel.app/graph%3Fusername%3Dhardikkothari2023%26bg_color%3Dffffff%26color%3D000000%26line%3D0e75b6%26point%3D000000%26area%3Dtrue%26hide_border%3Dtrue%23gh-light-mode-only" alt="Contribution Graph Light">
+<img src="https://www.google.com/search?q=https://github-readme-activity-graph.vercel.app/graph%3Fusername%3Dhardikkothari2023%26bg_color%3D0d1117%26color%3Dffffff%26line%3D0e75b6%26point%3Dffffff%26area%3Dtrue%26hide_border%3Dtrue%23gh-dark-mode-only" alt="Contribution Graph Dark">
+</p>
+
+<!-- Footer: Visitor Counter -->
 
 <p align="center">
 <img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3Dhardikkothari2023%26label%3DProfile%2520Visitors%26color%3D0e75b6%26style%3Dflat" alt="Profile visitors">
