@@ -35,15 +35,13 @@ jobs:
       - name: Ensure projects.json exists
         run: |
           if [ ! -f projects.json ]; then
-            cat > projects.json <<'JSON'
-{
-  "projects": [
-    "hardikko/AI-Career-Counselor",
-    "hardikko/stock-market-prediction-LSTM",
-    "hardikko/SignSpeak"
-  ]
-}
-JSON
+            echo '{
+              "projects": [
+                "hardikko/AI-Career-Counselor",
+                "hardikko/stock-market-prediction-LSTM",
+                "hardikko/SignSpeak"
+              ]
+            }' > projects.json
             git add projects.json
             git commit -m "chore: add default projects.json" || echo "no commit"
           fi
@@ -55,8 +53,28 @@ JSON
           DEVTO_USERNAME: ${{ secrets.DEVTO_USERNAME }}
         run: |
           python - <<'PY'
-# (Python script you had goes here, unchanged)
+# ------------------- Python Script -------------------
+import json, os
+
+with open("projects.json") as f:
+    projects = json.load(f)["projects"]
+
+readme_content = "# 👋 Hi, I'm Hardik Kothari\n\n"
+readme_content += "## 🚀 Projects\n"
+for proj in projects:
+    readme_content += f"- [{proj}](https://github.com/{proj})\n"
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+print("✅ README.md generated successfully!")
+
+# Git commit updated README
+os.system("git add README.md")
+os.system("git commit -m 'chore: auto-update README' || echo 'no changes'")
+os.system("git push origin HEAD:main")
+# -----------------------------------------------------
 PY
 
       - name: Finished
-        run: echo "README generation complete."
+        run: echo "🎉 README generation complete."
