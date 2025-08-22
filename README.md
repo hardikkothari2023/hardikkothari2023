@@ -47,21 +47,21 @@ For the dark/light theme to work, you MUST append #gh-dark-mode-only to the dark
 
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dvision-friendly-dark%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dgraywhite%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dgraywhite%26include_all_commits%3Dtrue%26count_private%3Dtrue" alt="Hardik's GitHub Stats">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Ddracula%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dbuefy%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dbuefy%26include_all_commits%3Dtrue%26count_private%3Dtrue" alt="Hardik's GitHub Stats">
 </picture>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dgraywhite%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dgraywhite" alt="Hardik's Top Languages">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Ddracula%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dbuefy%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dbuefy" alt="Hardik's Top Languages">
 </picture>
 <br>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddefault%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddefault" alt="Hardik's Contribution Streak">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddracula%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dbuefy%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dbuefy" alt="Hardik's Contribution Streak">
 </picture>
 </p>
 
@@ -85,19 +85,19 @@ Using pinned repo cards for a clean look. The theme switcher is also applied her
 
 <p align="center">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dgraywhite%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dgraywhite" alt="AI Career Counselor Project">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Ddracula%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dbuefy%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dbuefy" alt="AI Career Counselor Project">
 </picture>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dgraywhite%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dgraywhite" alt="Stock Market Prediction Project">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Ddracula%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dbuefy%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dbuefy" alt="Stock Market Prediction Project">
 </picture>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
-<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dgraywhite%23gh-light-mode-only">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dgraywhite" alt="SignSpeak Project">
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Ddracula%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dbuefy%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dbuefy" alt="SignSpeak Project">
 </picture>
 </p>
 
@@ -110,7 +110,7 @@ SOCIALS SECTION
 <a href="https://www.linkedin.com/in/hardik-kothari-80a06624a/">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn">
 </a>
-<a href="mailto:hardikkothari2005@gmail.com"> <!-- Replace with your actual email -->
+<a href="mailto:your-email@example.com"> <!-- Replace with your actual email -->
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
 </a>
 </p>
