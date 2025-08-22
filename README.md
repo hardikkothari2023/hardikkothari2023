@@ -1,84 +1,125 @@
-<div align="center">
+<!--
+Hello! You've found the source code for my GitHub profile.
+Feel free to take inspiration from it, but please give credit if you use significant parts.
+Thanks for visiting!
+-->
 
-<a href="https://github.com/hardikkothari2023">
-  <img src="https://placehold.co/1500x500/0D1117/FFFFFF?text=Hardik+Kothari" alt="Personal Banner" width="100%"/>
-</a>
-
-# Hi there, I'm Hardik Kothari 👋
-
-<a href="https://github.com/hardikkothari2023">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=28&pause=1000&color=16a34a&center=true&vCenter=true&width=500&lines=AI+Developer;Data+Science+Enthusiast;Machine+Learning+Engineer;Problem+Solver" alt="Animated Typing Header"/>
-</a>
-
-</div>
-
----
-
-### 👨‍💻 About Me
-
-I'm a passionate **AI Developer** and **Data Science enthusiast** currently studying at Poornima University, Jaipur. I love transforming complex problems into elegant, data-driven solutions. My focus is on building intelligent systems with machine learning and deep learning that can make a real-world impact. I'm always eager to learn new technologies and collaborate on exciting projects.
-
----
-
-### 🛠️ My Tech Stack & Skills
-
-Here are some of the technologies and tools I work with:
+<!--
+BANNER SECTION
+This is a personal banner. You can create your own here: https://leviarista.github.io/github-profile-header-generator/
+I've created a simple, elegant one for you to start with.
+-->
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,pandas,numpy,mysql,sqlite,git,github,vscode,jupyter,fastapi,flask&perline=7" />
-  </a>
+<img src="https://www.google.com/search?q=https://i.imgur.com/Zc20YjB.png" alt="Hardik Kothari - AI Developer Banner">
 </p>
 
--   **Languages**: `Python`, `SQL`, `C++`
--   **Machine Learning/Deep Learning**: `TensorFlow`, `PyTorch`, `Scikit-learn`, `Keras`, `OpenCV`
--   **Data Science**: `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `Dask`
--   **Databases**: `MySQL`, `PostgreSQL`, `SQLite`
--   **Tools & Platforms**: `Git`, `GitHub`, `Docker`, `VS Code`, `Jupyter Notebook`, `Google Colab`
--   **Web Frameworks (for ML deployment)**: `FastAPI`, `Flask`, `Streamlit`
-
----
-
-### 🚀 My Projects
-
-Here are some of the projects I've worked on. I'm proud of the challenges I've overcome and the skills I've developed.
-
-| Project Name                                                            | Description                                                                                                                                                                                          | Tech Stack                                                                    |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 🤖 **[AI Career Counselor](https://github.com/hardikkothari2023/ai-career-counselor)** | A smart, AI-powered chatbot designed to guide students and professionals by providing personalized career advice, course recommendations, and insights into various professional paths based on their skills and interests. | `Python`, `TensorFlow`, `NLTK`, `Scikit-learn`, `Flask`                         |
-| 📈 **[Stock Market Prediction](https://github.com/hardikkothari2023/Stock_market_prediction)** | An end-to-end project that leverages Long Short-Term Memory (LSTM) networks to forecast stock prices. The model is trained on historical data to predict future trends, helping in making informed investment decisions. | `Python`, `TensorFlow`, `Keras`, `Pandas`, `NumPy`, `Matplotlib`              |
-| 🤟 **[SignSpeak](https://github.com/hardikkothari2023/SignSpeak)** | A real-time American Sign Language (ASL) translator. This project uses computer vision and a deep learning model to recognize hand gestures from a webcam feed and translate them into text, bridging communication gaps. | `Python`, `OpenCV`, `TensorFlow`, `Keras`, `MediaPipe`                          |
-
----
-
-### 📊 My GitHub Stats & Activity
-
-This section automatically updates to show my latest GitHub activity.
+<!--
+INTRODUCTION SECTION
+This includes the animated typing effect. You can customize the text here: https://readme-typing-svg.demolab.com/
+-->
 
 <div align="center">
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=hardikkothari2023&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true" />
+<h1>
+<a href="https://git.io/typing-svg">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.demolab.com%3Ffont%3DInter%26size%3D35%26pause%3D1000%26color%3D36BCF7%26center%3Dtrue%26vCenter%3Dtrue%26width%3D500%26lines%3DHey%2Bthere%252C%2BI%27m%2BHardik%2BKothari%3BAI%2BDeveloper%3BData%2BScience%2BEnthusiast%3BMachine%2BLearning%2BEngineer" alt="Typing SVG">
 </a>
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hardikkothari2023&layout=compact&theme=transparent&hide_border=true" />
-</a>
-
+</h1>
 </div>
 
----
+<!--
+ABOUT ME SECTION
+A brief introduction about yourself.
+-->
 
-### 📫 Let's Connect!
+<div align="center">
+<p>
+I'm a passionate AI Developer and Data Science enthusiast based in Jaipur, India. I specialize in building intelligent systems and leveraging data to solve complex problems. Currently pursuing my studies at Poornima University, I'm always eager to learn and apply new technologies.
+</p>
+</div>
 
-I'm always open to collaborating on projects or discussing new ideas. Feel free to reach out to me!
+📊 My GitHub Stats
+<!--
+GITHUB STATS SECTION
+These stats will automatically update. The theme switcher logic is applied here.
+For the dark/light theme to work, you MUST append #gh-dark-mode-only to the dark theme image URL and #gh-light-mode-only to the light theme one.
+-->
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/hardik-kothari-80a06624a/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  &nbsp;
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dvision-friendly-dark%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dgraywhite%26include_all_commits%3Dtrue%26count_private%3Dtrue%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dhardikkothari2023%26show_icons%3Dtrue%26theme%3Dgraywhite%26include_all_commits%3Dtrue%26count_private%3Dtrue" alt="Hardik's GitHub Stats">
+</picture>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dgraywhite%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dhardikkothari2023%26layout%3Dcompact%26langs_count%3D8%26theme%3Dgraywhite" alt="Hardik's Top Languages">
+</picture>
+<br>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddefault%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dhardikkothari2023%26theme%3Ddefault" alt="Hardik's Contribution Streak">
+</picture>
+</p>
+
+🛠️ My Tech Stack
+<!--
+SKILLS SECTION
+Icons are from https://skillicons.dev/
+-->
+
+<p align="center">
+<a href="https://skillicons.dev">
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,tensorflow,pytorch,scikitlearn,pandas,numpy,mysql,sqlite,fastapi,flask,docker,git,github,vscode,linux%26perline%3D5" alt="My Skills"/>
+</a>
+</p>
+
+🚀 My Projects
+<!--
+PROJECTS SECTION
+Using pinned repo cards for a clean look. The theme switcher is also applied here.
+-->
+
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dgraywhite%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3Dai-career-counselor%26theme%3Dgraywhite" alt="AI Career Counselor Project">
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dgraywhite%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DStock_market_prediction%26theme%3Dgraywhite" alt="Stock Market Prediction Project">
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dvision-friendly-dark%23gh-dark-mode-only">
+<source media="(prefers-color-scheme: light)" srcset="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dgraywhite%23gh-light-mode-only">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dhardikkothari2023%26repo%3DSignSpeak%26theme%3Dgraywhite" alt="SignSpeak Project">
+</picture>
+</p>
+
+🤝 Let's Connect
+<!--
+SOCIALS SECTION
+-->
+
+<p align="center">
+<a href="https://www.linkedin.com/in/hardik-kothari-80a06624a/">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn">
+</a>
+<a href="mailto:hardikkothari2005@gmail.com"> <!-- Replace with your actual email -->
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+</a>
+</p>
+
+<!--
+FOOTER SECTION
+A simple visitor counter.
+-->
+
+<p align="center">
+<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3Dhardikkothari2023%26label%3DProfile%2520Visitors%26color%3D0e75b6%26style%3Dflat" alt="Profile visitors">
 </p>
