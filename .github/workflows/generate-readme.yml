@@ -1,0 +1,169 @@
+name: Generate Profile README (AI/ML)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'   # daily 03:00 UTC
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+  metadata: read
+
+jobs:
+  build-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pygithub pyyaml
+
+      - name: Ensure projects.json exists
+        run: |
+          if [ ! -f projects.json ]; then
+            cat > projects.json <<'JSON'
+{
+  "projects": [
+    "hardikko/AI-Career-Counselor",
+    "hardikko/stock-market-prediction-LSTM",
+    "hardikko/SignSpeak"
+  ]
+}
+JSON
+            git add projects.json
+            git commit -m "chore: add default projects.json" || echo "no commit"
+          fi
+
+      - name: Generate README and assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          DEVTO_USERNAME: ${{ secrets.DEVTO_USERNAME }}
+        run: |
+          python - <<'PY'
+import os, json, requests, subprocess, textwrap, time
+from datetime import datetime
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
+HEADERS = {'Authorization': f'token {GITHUB_TOKEN}', 'Accept': 'application/vnd.github.v3+json'}
+
+# Load projects
+with open('projects.json','r',encoding='utf-8') as f:
+    cfg = json.load(f)
+projects = cfg.get('projects', [])
+
+def fetch_repo(full):
+    url = f"https://api.github.com/repos/{full}"
+    r = requests.get(url, headers=HEADERS, timeout=20)
+    if r.status_code!=200:
+        return None
+    d = r.json()
+    return {
+        'full_name': d.get('full_name'),
+        'name': d.get('name'),
+        'desc': d.get('description') or '',
+        'url': d.get('html_url'),
+        'lang': d.get('language') or '',
+        'stars': d.get('stargazers_count',0),
+        'forks': d.get('forks_count',0),
+        'pushed_at': d.get('pushed_at')
+    }
+
+def last_commit(full):
+    url = f"https://api.github.com/repos/{full}/commits"
+    r = requests.get(url, headers=HEADERS, params={'per_page':1}, timeout=20)
+    if r.ok:
+        c = r.json()
+        if isinstance(c, list) and len(c)>0:
+            return {'sha': c[0].get('sha')[:7], 'date': c[0]['commit']['committer']['date']}
+    return {}
+
+fetched = []
+for p in projects:
+    meta = fetch_repo(p) or {'full_name':p,'name':p.split('/')[-1],'desc':'(repo not found)','url':f'https://github.com/{p}','lang':'','stars':0,'forks':0}
+    meta['last_commit'] = last_commit(p)
+    fetched.append(meta)
+
+# fetch joke and fact (best effort)
+joke = None
+try:
+    jr = requests.get("https://official-joke-api.appspot.com/jokes/programming/random", timeout=8)
+    if jr.ok:
+        ans = jr.json()
+        if isinstance(ans, list) and ans: joke = f\"{ans[0].get('setup','')}\n\n{ans[0].get('punchline','')}\" 
+except:
+    joke = None
+
+fact = None
+try:
+    fr = requests.get("https://uselessfacts.jsph.pl/random.json?language=en", timeout=8)
+    if fr.ok:
+        fact = fr.json().get('text')
+except:
+    fact = None
+
+# Build README content (same structure as sample README)
+now = datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
+lines = []
+lines.append("<!-- AUTO-GENERATED README (do not edit manually) -->\\n")
+lines.append(open('README_template.md','r',encoding='utf-8').read() if os.path.exists('README_template.md') else '')
+# If no template exists, fallback to inline baseline
+if not lines[-1]:
+    lines = [f"# Hola , I'm Hardik Kothari\\n\\n**AI Developer | Data Science Enthusiast | ML Engineer**\\n\\n"]
+    lines.append("## Featured Projects\\n\\n")
+    for pr in fetched:
+        lines.append(f"### [{pr['name']}]({pr['url']})\\n")
+        lines.append(f"{pr['desc']}\\n\\n")
+        lc = pr.get('last_commit') or {}
+        lines.append(f"- Language: `{pr['lang']}` • ⭐ {pr['stars']} • Forks: {pr['forks']} • Last commit: {lc.get('sha','N/A')} ({lc.get('date','N/A')})\\n\\n")
+
+# Write README.md
+with open('README.md','w',encoding='utf-8') as f:
+    f.write(''.join(lines))
+
+# Write placeholders for assets
+os.makedirs('assets', exist_ok=True)
+with open('assets/contrib-3d.svg','w',encoding='utf-8') as f:
+    svg = '<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1000\" height=\"150\"><rect width=\"100%\" height=\"100%\" fill=\"#0b0f14\"/><text x=\"50%\" y=\"50%\" fill=\"#00e5ff\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-size=\"20\">3D Contribution Graph (placeholder)</text></svg>'
+    f.write(svg)
+
+# optional banner generation via Replicate (basic placeholder - user can supply token)
+replicate_token = os.environ.get('REPLICATE_API_TOKEN')
+if replicate_token:
+    try:
+        # NOTE: this placeholder demonstrates where you would call Replicate.
+        # Many models require polling and a model version id. For reliability, we do not call here.
+        with open('assets/banner.png','wb') as bf:
+            bf.write(b'')  # keep empty placeholder — enable real generation by customizing this block
+    except Exception as e:
+        print("banner generation skipped:", e)
+else:
+    # create a small placeholder PNG (1x1)
+    import base64
+    png1x1 = base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=')
+    with open('assets/banner.png','wb') as bf:
+        bf.write(png1x1)
+
+# Commit if changed
+subprocess.run(['git','config','user.name','github-actions'], check=False)
+subprocess.run(['git','config','user.email','github-actions@users.noreply.github.com'], check=False)
+subprocess.run(['git','add','README.md','assets/'], check=False)
+try:
+    subprocess.run(['git','commit','-m','chore: auto-update profile README and assets [ci skip]'], check=True)
+    subprocess.run(['git','push','origin','HEAD'], check=True)
+except subprocess.CalledProcessError:
+    print('No changes to commit.')
+PY
+
+      - name: Finished
+        run: echo "README generation complete."
