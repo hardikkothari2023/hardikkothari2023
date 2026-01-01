@@ -2,7 +2,7 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Daily update
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,47 +11,58 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # 🔐 IMPORTANT: Use Personal Access Token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # =========================
-          # Base configuration
+          # Identity
           # =========================
           user: hardikkothari2023
-          template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
 
           # =========================
-          # Layout & Look (clean + elite)
+          # 🔥 THEME & LOOK (THIS CHANGES EVERYTHING)
           # =========================
+          template: terminal
           config_display: large
-          config_padding: 16
+          config_padding: 18
           config_octicon: yes
 
+          # Neon accent colors
+          config_color_background: 0d1117
+          config_color_text: c9d1d9
+          config_color_title: 58a6ff
+          config_color_icon: 7ee787
+          config_color_border: 30363d
+
           # =========================
-          # Contributions (3D-style calendar)
+          # Base sections
+          # =========================
+          base: header, activity, community, repositories, metadata
+
+          # =========================
+          # Contributions (3D calendar)
           # =========================
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
           # =========================
-          # Languages (stable & accurate)
+          # Languages (colorful bars)
           # =========================
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage
-          plugin_languages_ignored: html, css
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
 
           # =========================
           # Topics (AI / Data / Agentic AI)
           # =========================
           plugin_topics: yes
-          plugin_topics_limit: 20
+          plugin_topics_limit: 24
           plugin_topics_mode: mastered
 
           # =========================
-          # Coding depth & continuity
+          # Coding activity (graphs)
           # =========================
           plugin_lines: yes
           plugin_followup: yes
@@ -60,4 +71,4 @@ jobs:
           # Stars & credibility
           # =========================
           plugin_stars: yes
-          plugin_stars_limit: 5
+          plugin_stars_limit: 6
