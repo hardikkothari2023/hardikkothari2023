@@ -20,19 +20,13 @@ jobs:
           config_timezone: Asia/Kolkata
 
           # =========================
-          # 🔥 THEME & LOOK (THIS CHANGES EVERYTHING)
+          # ✅ THEME (SUPPORTED & MODERN)
           # =========================
           template: terminal
           config_display: large
-          config_padding: 18
+          config_padding: 16
           config_octicon: yes
-
-          # Neon accent colors
-          config_color_background: 0d1117
-          config_color_text: c9d1d9
-          config_color_title: 58a6ff
-          config_color_icon: 7ee787
-          config_color_border: 30363d
+          config_animations: yes
 
           # =========================
           # Base sections
@@ -62,13 +56,13 @@ jobs:
           plugin_topics_mode: mastered
 
           # =========================
-          # Coding activity (graphs)
+          # Coding activity
           # =========================
           plugin_lines: yes
           plugin_followup: yes
 
           # =========================
-          # Stars & credibility
+          # Stars
           # =========================
           plugin_stars: yes
           plugin_stars_limit: 6
