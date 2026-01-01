@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # 🔐 IMPORTANT: Use Personal Access Token
+          token: ${{ secrets.METRICS_TOKEN }}
 
           # =========================
           # Base configuration
